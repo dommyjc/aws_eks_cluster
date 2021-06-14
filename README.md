@@ -13,7 +13,7 @@ This is to deploy a EKS cluster in AWS
 - Update variables.tf file with relevant details for your environment
     - AWS Region
 
--  Provision the AKS cluster via terraform
+-  Provision the EKS cluster via terraform
     - terraform init
     - terraform plan
     - terraform apply
