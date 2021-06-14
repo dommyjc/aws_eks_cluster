@@ -9,6 +9,9 @@ This is to deploy a EKS cluster in AWS
     - export AWS_SECRET_ACCESS_KEY=<your-secret-access-key>
     - export AWS_DEFAULT_REGION=ap-southeast-2
     - export AWS_DEFAULT_OUTPUT=json
+    
+- Update variables.tf file with relevant details for your environment
+    - AWS Region
 
 -  Provision the AKS cluster via terraform
     - terraform init
